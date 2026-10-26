@@ -1,0 +1,48 @@
+export const CANONICAL_INTERESTS = [
+  // Music
+  { id: '10000000-0000-0000-0000-000000000001', category: 'Music', name: 'Pop' },
+  { id: '10000000-0000-0000-0000-000000000002', category: 'Music', name: 'Indie' },
+  { id: '10000000-0000-0000-0000-000000000003', category: 'Music', name: 'Bollywood' },
+  { id: '10000000-0000-0000-0000-000000000004', category: 'Music', name: 'Hip-hop' },
+  { id: '10000000-0000-0000-0000-000000000005', category: 'Music', name: 'Classical' },
+  { id: '10000000-0000-0000-0000-000000000006', category: 'Music', name: 'Live concerts' },
+  // Entertainment
+  { id: '20000000-0000-0000-0000-000000000001', category: 'Entertainment', name: 'Movies' },
+  { id: '20000000-0000-0000-0000-000000000002', category: 'Entertainment', name: 'Anime' },
+  { id: '20000000-0000-0000-0000-000000000003', category: 'Entertainment', name: 'K-dramas' },
+  { id: '20000000-0000-0000-0000-000000000004', category: 'Entertainment', name: 'Web series' },
+  { id: '20000000-0000-0000-0000-000000000005', category: 'Entertainment', name: 'Gaming' },
+  { id: '20000000-0000-0000-0000-000000000006', category: 'Entertainment', name: 'Memes' },
+  // Food
+  { id: '30000000-0000-0000-0000-000000000001', category: 'Food', name: 'Coffee' },
+  { id: '30000000-0000-0000-0000-000000000002', category: 'Food', name: 'Cafes' },
+  { id: '30000000-0000-0000-0000-000000000003', category: 'Food', name: 'Street food' },
+  { id: '30000000-0000-0000-0000-000000000004', category: 'Food', name: 'Desserts' },
+  { id: '30000000-0000-0000-0000-000000000005', category: 'Food', name: 'Cooking' },
+  { id: '30000000-0000-0000-0000-000000000006', category: 'Food', name: 'Trying new restaurants' },
+  // Lifestyle
+  { id: '40000000-0000-0000-0000-000000000001', category: 'Lifestyle', name: 'Gym' },
+  { id: '40000000-0000-0000-0000-000000000002', category: 'Lifestyle', name: 'Reading' },
+  { id: '40000000-0000-0000-0000-000000000003', category: 'Lifestyle', name: 'Travelling' },
+  { id: '40000000-0000-0000-0000-000000000004', category: 'Lifestyle', name: 'Photography' },
+  { id: '40000000-0000-0000-0000-000000000005', category: 'Lifestyle', name: 'Fashion' },
+  { id: '40000000-0000-0000-0000-000000000006', category: 'Lifestyle', name: 'Art' },
+  { id: '40000000-0000-0000-0000-000000000007', category: 'Lifestyle', name: 'Dancing' },
+  { id: '40000000-0000-0000-0000-000000000008', category: 'Lifestyle', name: 'Sports' },
+  // Personality and social preferences
+  { id: '50000000-0000-0000-0000-000000000001', category: 'Personality and social preferences', name: 'Introvert' },
+  { id: '50000000-0000-0000-0000-000000000002', category: 'Personality and social preferences', name: 'Extrovert' },
+  { id: '50000000-0000-0000-0000-000000000003', category: 'Personality and social preferences', name: 'Ambivert' },
+  { id: '50000000-0000-0000-0000-000000000004', category: 'Personality and social preferences', name: 'Deep conversations' },
+  { id: '50000000-0000-0000-0000-000000000005', category: 'Personality and social preferences', name: 'Spontaneous plans' },
+  { id: '50000000-0000-0000-0000-000000000006', category: 'Personality and social preferences', name: 'Quiet dates' },
+  { id: '50000000-0000-0000-0000-000000000007', category: 'Personality and social preferences', name: 'Late-night talks' },
+  { id: '50000000-0000-0000-0000-000000000008', category: 'Personality and social preferences', name: 'Study dates' },
+  // Academic and creative
+  { id: '60000000-0000-0000-0000-000000000001', category: 'Academic and creative', name: 'Coding' },
+  { id: '60000000-0000-0000-0000-000000000002', category: 'Academic and creative', name: 'Startups' },
+  { id: '60000000-0000-0000-0000-000000000003', category: 'Academic and creative', name: 'Design' },
+  { id: '60000000-0000-0000-0000-000000000004', category: 'Academic and creative', name: 'AI and technology' },
+  { id: '60000000-0000-0000-0000-000000000005', category: 'Academic and creative', name: 'Writing' },
+  { id: '60000000-0000-0000-0000-000000000006', category: 'Academic and creative', name: 'Entrepreneurship' },
+];

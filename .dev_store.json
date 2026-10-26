@@ -1,0 +1,1524 @@
+{
+  "users": [
+    [
+      "20000000-0000-0000-0000-000000000001",
+      {
+        "id": "20000000-0000-0000-0000-000000000001",
+        "authSubject": "demo-sub-20000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "VERIFIED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000002",
+      {
+        "id": "20000000-0000-0000-0000-000000000002",
+        "authSubject": "demo-sub-20000000-0000-0000-0000-000000000002",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "VERIFIED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000003",
+      {
+        "id": "20000000-0000-0000-0000-000000000003",
+        "authSubject": "demo-sub-20000000-0000-0000-0000-000000000003",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "VERIFIED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000004",
+      {
+        "id": "20000000-0000-0000-0000-000000000004",
+        "authSubject": "demo-sub-20000000-0000-0000-0000-000000000004",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "VERIFIED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000005",
+      {
+        "id": "20000000-0000-0000-0000-000000000005",
+        "authSubject": "demo-sub-20000000-0000-0000-0000-000000000005",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "VERIFIED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+      {
+        "id": "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+        "authSubject": "demo-mod-admin",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "SELF_ATTESTED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "764290a4-3bcb-48f2-af65-21d895b646ed",
+      {
+        "id": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "authSubject": "b97094b8-b946-4fa1-8bcf-8be423083c10",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "SELF_ATTESTED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ],
+    [
+      "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+      {
+        "id": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "authSubject": "20000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "campusName": "Example University",
+        "campusActive": true,
+        "campusConfig": {
+          "emailDomains": [
+            "example.edu",
+            "uni.edu"
+          ]
+        },
+        "ageStatus": "SELF_ATTESTED",
+        "campusStatus": "VERIFIED",
+        "status": "ACTIVE"
+      }
+    ]
+  ],
+  "authToUser": [
+    [
+      "demo-sub-20000000-0000-0000-0000-000000000001",
+      "20000000-0000-0000-0000-000000000001"
+    ],
+    [
+      "demo-sub-20000000-0000-0000-0000-000000000002",
+      "20000000-0000-0000-0000-000000000002"
+    ],
+    [
+      "demo-sub-20000000-0000-0000-0000-000000000003",
+      "20000000-0000-0000-0000-000000000003"
+    ],
+    [
+      "demo-sub-20000000-0000-0000-0000-000000000004",
+      "20000000-0000-0000-0000-000000000004"
+    ],
+    [
+      "demo-sub-20000000-0000-0000-0000-000000000005",
+      "20000000-0000-0000-0000-000000000005"
+    ],
+    [
+      "demo-mod-admin",
+      "18f521ba-022c-47c4-b204-fee2ef29e3fe"
+    ],
+    [
+      "b97094b8-b946-4fa1-8bcf-8be423083c10",
+      "764290a4-3bcb-48f2-af65-21d895b646ed"
+    ],
+    [
+      "20000000-0000-0000-0000-000000000001",
+      "b32ff88c-af6b-4748-8aa7-d8b6ae730e66"
+    ]
+  ],
+  "profiles": [
+    [
+      "20000000-0000-0000-0000-000000000001",
+      {
+        "userId": "20000000-0000-0000-0000-000000000001",
+        "nickname": "Maya Sharma",
+        "nicknameKey": "maya sharma",
+        "bio": "CS sophomore obsessed with indie music, iced matcha, and late night debug sessions 🎧☕",
+        "graduationYear": "Sophomore (Class of '27)",
+        "major": "Computer Science & AI",
+        "campusArea": "North Dorms",
+        "interests": [
+          "Pop",
+          "Anime",
+          "Coffee",
+          "Coding",
+          "Quiet dates"
+        ],
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:34:40.752Z"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000002",
+      {
+        "userId": "20000000-0000-0000-0000-000000000002",
+        "nickname": "Jordan Lee",
+        "nicknameKey": "jordan lee",
+        "bio": "Visual design student. Looking for museum buddies and people who can recommend good ambient playlists 🎨✨",
+        "graduationYear": "Junior (Class of '26)",
+        "major": "Visual Design & Fine Arts",
+        "campusArea": "South Campus",
+        "interests": [
+          "Design",
+          "Photography",
+          "Art",
+          "Cafes",
+          "Indie"
+        ],
+        "avatarUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:34:40.752Z"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000003",
+      {
+        "userId": "20000000-0000-0000-0000-000000000003",
+        "nickname": "Priya Patel",
+        "nicknameKey": "priya patel",
+        "bio": "Lit major who will definitely judge your taste in thrillers. Big fan of street food and rainy days 📚🍜",
+        "graduationYear": "Senior (Class of '25)",
+        "major": "Literature & Creative Writing",
+        "campusArea": "East Wing Hostels",
+        "interests": [
+          "Reading",
+          "Writing",
+          "Street food",
+          "Late-night talks",
+          "Deep conversations"
+        ],
+        "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:34:40.752Z"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000004",
+      {
+        "userId": "20000000-0000-0000-0000-000000000004",
+        "nickname": "Alex Chen",
+        "nicknameKey": "alex chen",
+        "bio": "Economics & tech. 60% gym, 30% startup podcasts, 10% trying to cook without burning the kitchen ⚡",
+        "graduationYear": "Sophomore (Class of '27)",
+        "major": "Economics & Finance",
+        "campusArea": "West Wing Hostels",
+        "interests": [
+          "Gym",
+          "Startups",
+          "Hip-hop",
+          "Memes",
+          "Spontaneous plans"
+        ],
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:34:40.753Z"
+      }
+    ],
+    [
+      "20000000-0000-0000-0000-000000000005",
+      {
+        "userId": "20000000-0000-0000-0000-000000000005",
+        "nickname": "Sam Taylor",
+        "nicknameKey": "sam taylor",
+        "bio": "Always at concerts or planning weekend trips. Tell me your top 3 songs of all time 🎵✈️",
+        "graduationYear": "Freshman (Class of '28)",
+        "major": "Media & Communications",
+        "campusArea": "Off-Campus Commuter",
+        "interests": [
+          "Live concerts",
+          "Travelling",
+          "Fashion",
+          "Dancing",
+          "Extrovert"
+        ],
+        "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:34:40.753Z"
+      }
+    ],
+    [
+      "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+      {
+        "userId": "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+        "nickname": "Campus Moderator",
+        "nicknameKey": "campus moderator",
+        "bio": "Official campus safety moderator",
+        "interests": [
+          "Pop",
+          "Coffee",
+          "Indie",
+          "Anime"
+        ],
+        "avatarUrl": null,
+        "discoverable": true,
+        "updatedAt": "2026-10-21T12:36:07.739Z",
+        "major": null,
+        "graduationYear": null,
+        "campusArea": null
+      }
+    ],
+    [
+      "764290a4-3bcb-48f2-af65-21d895b646ed",
+      {
+        "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "nickname": "unika",
+        "nicknameKey": "unika",
+        "bio": "☕ Coffee & late-night study partner",
+        "interests": [
+          "Web series",
+          "Gaming",
+          "Street food"
+        ],
+        "avatarUrl": "/api/v1/profiles/photos/a6d9725f-9f35-4021-973f-b587c39e4ba6",
+        "discoverable": true,
+        "updatedAt": "2026-10-22T17:22:16.349Z",
+        "major": null,
+        "graduationYear": null,
+        "campusArea": null
+      }
+    ],
+    [
+      "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+      {
+        "userId": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "nickname": "Maya Sharma",
+        "nicknameKey": "maya sharma",
+        "bio": "CS sophomore obsessed with indie music, iced matcha, and late night debug sessions 🎧☕",
+        "interests": [
+          "Pop",
+          "Coffee",
+          "Indie",
+          "Anime"
+        ],
+        "avatarUrl": null,
+        "discoverable": true,
+        "updatedAt": "2026-10-21T16:06:34.610Z",
+        "major": null,
+        "graduationYear": null,
+        "campusArea": null
+      }
+    ]
+  ],
+  "photos": [
+    [
+      "20000000-0000-0000-0000-000000000001",
+      [
+        {
+          "id": "996f1ac6-3a62-4f5d-abf4-95fcc33db65e",
+          "userId": "20000000-0000-0000-0000-000000000001",
+          "storagePath": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:34:40.752Z"
+        },
+        {
+          "id": "851d64da-6a49-4728-b9dc-5dfa267194d0",
+          "userId": "20000000-0000-0000-0000-000000000001",
+          "storagePath": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 1,
+          "isPrimary": false,
+          "createdAt": "2026-10-21T12:34:40.752Z"
+        }
+      ]
+    ],
+    [
+      "20000000-0000-0000-0000-000000000002",
+      [
+        {
+          "id": "4ef750f8-bf27-484b-bbec-2f867aaf4c6c",
+          "userId": "20000000-0000-0000-0000-000000000002",
+          "storagePath": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:34:40.752Z"
+        },
+        {
+          "id": "83af53b6-177d-4316-bb1a-80b36d5a39e9",
+          "userId": "20000000-0000-0000-0000-000000000002",
+          "storagePath": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 1,
+          "isPrimary": false,
+          "createdAt": "2026-10-21T12:34:40.752Z"
+        }
+      ]
+    ],
+    [
+      "20000000-0000-0000-0000-000000000003",
+      [
+        {
+          "id": "3d17dfeb-1aad-4272-8f17-f054e8c85e80",
+          "userId": "20000000-0000-0000-0000-000000000003",
+          "storagePath": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:34:40.753Z"
+        },
+        {
+          "id": "b266eddf-a0d2-4a09-af5c-1bde5c01c964",
+          "userId": "20000000-0000-0000-0000-000000000003",
+          "storagePath": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 1,
+          "isPrimary": false,
+          "createdAt": "2026-10-21T12:34:40.753Z"
+        }
+      ]
+    ],
+    [
+      "20000000-0000-0000-0000-000000000004",
+      [
+        {
+          "id": "243b34c0-45b3-454e-a758-056b9dce08b4",
+          "userId": "20000000-0000-0000-0000-000000000004",
+          "storagePath": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:34:40.753Z"
+        }
+      ]
+    ],
+    [
+      "20000000-0000-0000-0000-000000000005",
+      [
+        {
+          "id": "e1789297-afa2-469e-b9be-d6e819aa3be8",
+          "userId": "20000000-0000-0000-0000-000000000005",
+          "storagePath": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:34:40.753Z"
+        }
+      ]
+    ],
+    [
+      "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+      []
+    ],
+    [
+      "764290a4-3bcb-48f2-af65-21d895b646ed",
+      [
+        {
+          "id": "a6d9725f-9f35-4021-973f-b587c39e4ba6",
+          "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "storagePath": "photos/dev-user/25755ad2-84d3-4fb8-af96-7884f496772e.webp",
+          "displayOrder": 0,
+          "isPrimary": true,
+          "createdAt": "2026-10-21T12:40:42.561Z"
+        },
+        {
+          "id": "7d9d44bf-f612-489a-b61e-bda121d547a0",
+          "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "storagePath": "photos/dev-user/c49fc6ba-28f0-4b81-983d-03b7ad4df080.png",
+          "displayOrder": 1,
+          "isPrimary": false,
+          "createdAt": "2026-10-21T12:40:42.561Z"
+        },
+        {
+          "id": "0d1f8d21-ebbe-4d04-86a8-a71a144e059e",
+          "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "storagePath": "photos/764290a4-3bcb-48f2-af65-21d895b646ed/b91d2334-32f9-4621-9ccb-df4c25227e4a.webp",
+          "displayOrder": 2,
+          "isPrimary": false,
+          "createdAt": "2026-10-22T17:22:09.437Z"
+        }
+      ]
+    ],
+    [
+      "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+      []
+    ]
+  ],
+  "crushes": [
+    "18f521ba-022c-47c4-b204-fee2ef29e3fe:20000000-0000-0000-0000-000000000001",
+    "20000000-0000-0000-0000-000000000001:18f521ba-022c-47c4-b204-fee2ef29e3fe",
+    "764290a4-3bcb-48f2-af65-21d895b646ed:20000000-0000-0000-0000-000000000001",
+    "20000000-0000-0000-0000-000000000001:764290a4-3bcb-48f2-af65-21d895b646ed",
+    "20000000-0000-0000-0000-000000000002:764290a4-3bcb-48f2-af65-21d895b646ed",
+    "764290a4-3bcb-48f2-af65-21d895b646ed:20000000-0000-0000-0000-000000000004",
+    "20000000-0000-0000-0000-000000000004:764290a4-3bcb-48f2-af65-21d895b646ed",
+    "20000000-0000-0000-0000-000000000005:764290a4-3bcb-48f2-af65-21d895b646ed",
+    "b32ff88c-af6b-4748-8aa7-d8b6ae730e66:20000000-0000-0000-0000-000000000001",
+    "20000000-0000-0000-0000-000000000001:b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+    "b32ff88c-af6b-4748-8aa7-d8b6ae730e66:18f521ba-022c-47c4-b204-fee2ef29e3fe",
+    "b32ff88c-af6b-4748-8aa7-d8b6ae730e66:20000000-0000-0000-0000-000000000002",
+    "20000000-0000-0000-0000-000000000002:b32ff88c-af6b-4748-8aa7-d8b6ae730e66"
+  ],
+  "matches": [
+    [
+      "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+      {
+        "id": "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+        "userA": "20000000-0000-0000-0000-000000000001",
+        "userB": "dc035f33-2cb7-4ac0-8a1d-17d48a98b104",
+        "status": "UNMATCHED",
+        "createdAt": "2026-10-21T12:35:04.143Z"
+      }
+    ],
+    [
+      "dde1e39f-2aae-4a10-8773-d3492d29cbed",
+      {
+        "id": "dde1e39f-2aae-4a10-8773-d3492d29cbed",
+        "userA": "18f521ba-022c-47c4-b204-fee2ef29e3fe",
+        "userB": "20000000-0000-0000-0000-000000000001",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T12:36:07.739Z"
+      }
+    ],
+    [
+      "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      {
+        "id": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+        "userA": "20000000-0000-0000-0000-000000000001",
+        "userB": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T12:40:42.562Z"
+      }
+    ],
+    [
+      "96f7ea0f-c527-4cc5-8413-e7c1c6b1ed68",
+      {
+        "id": "96f7ea0f-c527-4cc5-8413-e7c1c6b1ed68",
+        "userA": "20000000-0000-0000-0000-000000000002",
+        "userB": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T12:40:53.016Z"
+      }
+    ],
+    [
+      "a81e7483-db0c-4084-95e8-10a115426804",
+      {
+        "id": "a81e7483-db0c-4084-95e8-10a115426804",
+        "userA": "20000000-0000-0000-0000-000000000004",
+        "userB": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T12:42:50.630Z"
+      }
+    ],
+    [
+      "95520fab-3861-4561-88e5-7e98b7339e06",
+      {
+        "id": "95520fab-3861-4561-88e5-7e98b7339e06",
+        "userA": "20000000-0000-0000-0000-000000000005",
+        "userB": "764290a4-3bcb-48f2-af65-21d895b646ed",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T16:02:25.950Z"
+      }
+    ],
+    [
+      "e67002aa-b730-460b-8069-6fd1383e2c4b",
+      {
+        "id": "e67002aa-b730-460b-8069-6fd1383e2c4b",
+        "userA": "20000000-0000-0000-0000-000000000001",
+        "userB": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-21T16:06:34.610Z"
+      }
+    ],
+    [
+      "3ff23b06-949e-4508-82d1-13c9a7ad3762",
+      {
+        "id": "3ff23b06-949e-4508-82d1-13c9a7ad3762",
+        "userA": "20000000-0000-0000-0000-000000000002",
+        "userB": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-22T18:06:39.811Z"
+      }
+    ]
+  ],
+  "notifications": [
+    {
+      "id": "b4b71507-dd8f-4ff6-833a-e98d9c84933b",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "NEW_MATCH",
+      "matchId": "96f7ea0f-c527-4cc5-8413-e7c1c6b1ed68",
+      "createdAt": "2026-10-21T12:40:53.016Z",
+      "readAt": "2026-10-21T12:40:54.626Z"
+    },
+    {
+      "id": "a950a828-0453-454a-9260-1cdceb6dcb20",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "MESSAGE",
+      "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      "createdAt": "2026-10-21T12:42:08.803Z",
+      "readAt": "2026-10-21T12:42:24.880Z"
+    },
+    {
+      "id": "cb61e8fd-a119-42a5-bba9-80b365c61d49",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "MESSAGE",
+      "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      "createdAt": "2026-10-21T12:42:14.184Z",
+      "readAt": "2026-10-21T12:42:24.880Z"
+    },
+    {
+      "id": "46568770-ee09-458b-9c5f-77594f3de0d3",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "MESSAGE",
+      "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      "createdAt": "2026-10-21T12:42:31.167Z",
+      "readAt": "2026-10-21T12:42:38.878Z"
+    },
+    {
+      "id": "0aac6d59-6a77-4aac-8906-04dfee88374d",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "NEW_MATCH",
+      "matchId": "a81e7483-db0c-4084-95e8-10a115426804",
+      "createdAt": "2026-10-21T12:42:50.630Z",
+      "readAt": "2026-10-21T12:42:51.769Z"
+    },
+    {
+      "id": "a38e13f3-48d9-48b0-b60c-36cb9f01fe46",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "MESSAGE",
+      "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      "createdAt": "2026-10-21T15:59:18.695Z",
+      "readAt": "2026-10-21T15:59:39.268Z"
+    },
+    {
+      "id": "7bc0a95b-8e84-4ab6-9422-68d873a55f05",
+      "userId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+      "type": "NEW_MATCH",
+      "matchId": "95520fab-3861-4561-88e5-7e98b7339e06",
+      "createdAt": "2026-10-21T16:02:25.950Z",
+      "readAt": "2026-10-21T16:02:27.792Z"
+    },
+    {
+      "id": "1aad6eb0-76fc-4ba0-ba33-e851138cd72d",
+      "userId": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+      "type": "NEW_MATCH",
+      "matchId": "3ff23b06-949e-4508-82d1-13c9a7ad3762",
+      "createdAt": "2026-10-22T18:06:39.811Z",
+      "readAt": "2026-10-22T18:06:41.514Z"
+    }
+  ],
+  "messages": [
+    [
+      "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+      [
+        {
+          "id": "d547f3e6-7e3e-4c7c-b42b-528a74346a3f",
+          "matchId": "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Hey! ✨ So glad we matched on Hush! What campus coffee spot do you swear by? ☕",
+          "createdAt": "2026-10-21T12:35:04.143Z"
+        },
+        {
+          "id": "ebf27edb-201d-4bf0-a0b9-0e26bdfccc4d",
+          "matchId": "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+          "senderId": "dc035f33-2cb7-4ac0-8a1d-17d48a98b104",
+          "content": "I usually go to the campus library cafe! How about you?",
+          "createdAt": "2026-10-21T12:35:37.063Z"
+        },
+        {
+          "id": "56c80483-996e-480e-bd63-9e8f1b1c98ef",
+          "matchId": "7ffbcebc-193b-4fc0-b14d-cb56f0f8749e",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Loved your bio and photos by the way! 🙌",
+          "createdAt": "2026-10-21T12:35:39.069Z"
+        }
+      ]
+    ],
+    [
+      "dde1e39f-2aae-4a10-8773-d3492d29cbed",
+      [
+        {
+          "id": "caaa0407-6191-40c8-a37e-85b9b45962a1",
+          "matchId": "dde1e39f-2aae-4a10-8773-d3492d29cbed",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Hey! ✨ So glad we matched on Hush! What campus coffee spot do you swear by? ☕",
+          "createdAt": "2026-10-21T12:36:07.739Z"
+        }
+      ]
+    ],
+    [
+      "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+      [
+        {
+          "id": "232d6387-dd9c-4e0e-8851-416d35bf43e0",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Hey! ✨ So glad we matched on Hush! What campus coffee spot do you swear by? ☕",
+          "createdAt": "2026-10-21T12:40:42.562Z"
+        },
+        {
+          "id": "b1e16c49-de0b-4723-9596-7c84b7be61f6",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "content": "yes",
+          "createdAt": "2026-10-21T12:42:06.796Z"
+        },
+        {
+          "id": "e1674d95-821c-4956-a227-b9b49f7099a6",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Loved your bio and photos by the way! 🙌",
+          "createdAt": "2026-10-21T12:42:08.803Z"
+        },
+        {
+          "id": "2383d467-9661-4db1-8553-f6962f899d90",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "content": "okay",
+          "createdAt": "2026-10-21T12:42:12.169Z"
+        },
+        {
+          "id": "e57479a9-c2e2-40c9-a5b1-673cf561e43e",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Haha totally! Are you usually studying in the library or grabbing coffee? ☕",
+          "createdAt": "2026-10-21T12:42:14.184Z"
+        },
+        {
+          "id": "28aebbff-ed99-418c-871a-7c2d6413eb05",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "content": "studyimg",
+          "createdAt": "2026-10-21T12:42:29.160Z"
+        },
+        {
+          "id": "14445ec8-cbc6-4d06-8ed1-f1083c9c7d82",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Haha totally! Are you usually studying in the library or grabbing coffee? ☕",
+          "createdAt": "2026-10-21T12:42:31.167Z"
+        },
+        {
+          "id": "98513827-008f-494f-8cb7-831717b97252",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "764290a4-3bcb-48f2-af65-21d895b646ed",
+          "content": "sure",
+          "createdAt": "2026-10-21T15:59:16.685Z"
+        },
+        {
+          "id": "c8333486-6657-4097-a61b-f65bbe02817d",
+          "matchId": "6e45a977-84ae-46c3-86ac-7b512f831cc5",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Haha totally! Are you usually studying in the library or grabbing coffee? ☕",
+          "createdAt": "2026-10-21T15:59:18.695Z"
+        }
+      ]
+    ],
+    [
+      "e67002aa-b730-460b-8069-6fd1383e2c4b",
+      [
+        {
+          "id": "677ea01b-db7f-4d18-984e-64766729b83f",
+          "matchId": "e67002aa-b730-460b-8069-6fd1383e2c4b",
+          "senderId": "20000000-0000-0000-0000-000000000001",
+          "content": "Hey! ✨ So glad we matched on Hush! What campus coffee spot do you swear by? ☕",
+          "createdAt": "2026-10-21T16:06:34.610Z"
+        }
+      ]
+    ]
+  ],
+  "blocks": [],
+  "reports": [
+    [
+      "30000000-0000-0000-0000-000000000001",
+      {
+        "id": "30000000-0000-0000-0000-000000000001",
+        "reporterId": "20000000-0000-0000-0000-000000000001",
+        "targetId": "20000000-0000-0000-0000-000000000004",
+        "reason": "SPAM",
+        "details": "Sending unsolicited external Telegram crypto links in conversation.",
+        "status": "ACTIONED",
+        "createdAt": "2026-10-21T10:34:40.753Z",
+        "reviewedBy": "demo-mod-admin",
+        "reviewedAt": "2026-10-21T12:36:12.521Z",
+        "resolutionNote": "Account suspended for spam."
+      }
+    ],
+    [
+      "30000000-0000-0000-0000-000000000002",
+      {
+        "id": "30000000-0000-0000-0000-000000000002",
+        "reporterId": "20000000-0000-0000-0000-000000000002",
+        "targetId": "20000000-0000-0000-0000-000000000005",
+        "reason": "FAKE_PROFILE",
+        "details": "Photos reverse image search to a fashion model profile on Pinterest.",
+        "status": "REVIEWING",
+        "createdAt": "2026-10-21T04:34:40.753Z",
+        "reviewedBy": "mod-admin",
+        "reviewedAt": "2026-10-21T08:34:40.753Z",
+        "resolutionNote": "Checking student directory for enrollment confirmation."
+      }
+    ],
+    [
+      "30000000-0000-0000-0000-000000000003",
+      {
+        "id": "30000000-0000-0000-0000-000000000003",
+        "reporterId": "20000000-0000-0000-0000-000000000003",
+        "targetId": "20000000-0000-0000-0000-000000000002",
+        "reason": "HARASSMENT",
+        "details": "Disagreement in campus club chat.",
+        "status": "DISMISSED",
+        "createdAt": "2026-10-20T12:34:40.753Z",
+        "reviewedBy": "mod-admin",
+        "reviewedAt": "2026-10-21T00:34:40.753Z",
+        "resolutionNote": "Reviewed context: No violation of Hush community guidelines detected."
+      }
+    ]
+  ],
+  "confessions": [
+    [
+      "40000000-0000-0000-0000-000000000001",
+      {
+        "id": "40000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "To the person wearing the forest green oversized hoodie in the library 3rd floor quiet zone: your study playlist is immaculate and I was secretly grooving along ✨",
+        "category": "Crushes",
+        "status": "APPROVED",
+        "likesCount": 19,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T14:15:43.336Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "40000000-0000-0000-0000-000000000002",
+      {
+        "id": "40000000-0000-0000-0000-000000000002",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000002",
+        "content": "Petition to keep the central campus cafe open till 2 AM during midterms! That iced caramel latte is literally carrying my entire semester GPA ☕🙏",
+        "category": "Campus Life",
+        "status": "APPROVED",
+        "likesCount": 38,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T10:15:43.336Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "40000000-0000-0000-0000-000000000003",
+      {
+        "id": "40000000-0000-0000-0000-000000000003",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000003",
+        "content": "Overheard outside the quad: \"Bro, if you like her just send a Hush crush, worst case she never knows, best case you're getting boba tomorrow.\" Words to live by 💖",
+        "category": "Overheard",
+        "status": "APPROVED",
+        "likesCount": 54,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T03:15:43.336Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "40000000-0000-0000-0000-000000000004",
+      {
+        "id": "40000000-0000-0000-0000-000000000004",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000004",
+        "content": "Looking for a study partner for tomorrow's Algorithms exam who appreciates lo-fi beats, snack breaks, and mutual motivation 💻⚡",
+        "category": "Academics",
+        "status": "APPROVED",
+        "likesCount": 12,
+        "reportsCount": 0,
+        "createdAt": "2026-10-21T19:15:43.336Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "4fcd7217-0228-491d-8ff9-30e0589d139c",
+      {
+        "id": "4fcd7217-0228-491d-8ff9-30e0589d139c",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Secret crush on the student wearing the vintage varsity jacket!",
+        "category": "Crushes",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:15:43.380Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "5070463f-f251-4c3f-9a6e-e5a00d16c98d",
+      {
+        "id": "5070463f-f251-4c3f-9a6e-e5a00d16c98d",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Campus A exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:15:43.383Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "400d3f78-5f02-4d28-b9b8-6797471b2124",
+      {
+        "id": "400d3f78-5f02-4d28-b9b8-6797471b2124",
+        "campusId": "22222222-2222-2222-2222-222222222222",
+        "authorId": "20000000-0000-0000-0000-000000000002",
+        "content": "Campus B exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:15:43.384Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "ba925f65-474c-4785-b220-4eb25b3bfbf3",
+      {
+        "id": "ba925f65-474c-4785-b220-4eb25b3bfbf3",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Who else is pulling an all-nighter for midterm exams? ☕",
+        "category": "Late Night",
+        "status": "APPROVED",
+        "likesCount": 1,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:15:43.386Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "f0b25500-44f5-499a-a216-df687770b721",
+      {
+        "id": "f0b25500-44f5-499a-a216-df687770b721",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Suspicious post needing community moderation",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 3,
+        "createdAt": "2026-10-22T17:15:43.390Z",
+        "reviewedAt": "2026-10-22T17:15:43.394Z",
+        "reviewerId": "moderator-admin"
+      }
+    ],
+    [
+      "2b5ffd69-fe60-483f-b4e0-117b365d0de0",
+      {
+        "id": "2b5ffd69-fe60-483f-b4e0-117b365d0de0",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Secret crush on the student wearing the vintage varsity jacket!",
+        "category": "Crushes",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:13.219Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "11c30fbf-be87-4d1e-9d0d-de551424789d",
+      {
+        "id": "11c30fbf-be87-4d1e-9d0d-de551424789d",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Campus A exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:13.223Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "14c45a29-ecba-4c51-a9dc-932e33ce603f",
+      {
+        "id": "14c45a29-ecba-4c51-a9dc-932e33ce603f",
+        "campusId": "22222222-2222-2222-2222-222222222222",
+        "authorId": "20000000-0000-0000-0000-000000000002",
+        "content": "Campus B exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:13.224Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "aff75599-7e18-41ee-88e3-f60e50664283",
+      {
+        "id": "aff75599-7e18-41ee-88e3-f60e50664283",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Who else is pulling an all-nighter for midterm exams? ☕",
+        "category": "Late Night",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:13.227Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "19ef4762-8e7d-47c7-bbf0-c4413c9f0e35",
+      {
+        "id": "19ef4762-8e7d-47c7-bbf0-c4413c9f0e35",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Suspicious post needing community moderation",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 3,
+        "createdAt": "2026-10-22T17:36:13.232Z",
+        "reviewedAt": "2026-10-22T17:36:13.238Z",
+        "reviewerId": "moderator-admin"
+      }
+    ],
+    [
+      "abb8a080-66ee-46f6-820a-4bbb476f6908",
+      {
+        "id": "abb8a080-66ee-46f6-820a-4bbb476f6908",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Secret crush on the student wearing the vintage varsity jacket!",
+        "category": "Crushes",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:39.919Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "c915919d-f1fa-41ff-867c-41967872ea05",
+      {
+        "id": "c915919d-f1fa-41ff-867c-41967872ea05",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Campus A exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:39.922Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "fd3dd782-13c3-44bd-9225-8d8226f60dee",
+      {
+        "id": "fd3dd782-13c3-44bd-9225-8d8226f60dee",
+        "campusId": "22222222-2222-2222-2222-222222222222",
+        "authorId": "20000000-0000-0000-0000-000000000002",
+        "content": "Campus B exclusive announcement",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:39.923Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "e0a143e4-ee60-4bc2-9780-59dc142bc367",
+      {
+        "id": "e0a143e4-ee60-4bc2-9780-59dc142bc367",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Who else is pulling an all-nighter for midterm exams? ☕",
+        "category": "Late Night",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 0,
+        "createdAt": "2026-10-22T17:36:39.924Z",
+        "reviewedAt": null,
+        "reviewerId": null
+      }
+    ],
+    [
+      "45058b82-dd5b-482b-ae68-5a24ed5d8ba2",
+      {
+        "id": "45058b82-dd5b-482b-ae68-5a24ed5d8ba2",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "content": "Suspicious post needing community moderation",
+        "category": "General",
+        "status": "APPROVED",
+        "likesCount": 0,
+        "reportsCount": 3,
+        "createdAt": "2026-10-22T17:36:39.928Z",
+        "reviewedAt": "2026-10-22T17:36:39.935Z",
+        "reviewerId": "moderator-admin"
+      }
+    ]
+  ],
+  "confessionLikes": [
+    "ba925f65-474c-4785-b220-4eb25b3bfbf3:18f521ba-022c-47c4-b204-fee2ef29e3fe"
+  ],
+  "confessionReports": [
+    [
+      "f0353dce-45d2-4a3f-ada2-c42b7ce4c196",
+      {
+        "id": "f0353dce-45d2-4a3f-ada2-c42b7ce4c196",
+        "confessionId": "f0b25500-44f5-499a-a216-df687770b721",
+        "reporterId": "user-a",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:15:43.391Z"
+      }
+    ],
+    [
+      "66d07fca-2687-4434-a265-4dd1a48cfc1f",
+      {
+        "id": "66d07fca-2687-4434-a265-4dd1a48cfc1f",
+        "confessionId": "f0b25500-44f5-499a-a216-df687770b721",
+        "reporterId": "user-b",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:15:43.392Z"
+      }
+    ],
+    [
+      "14f970f1-fba9-43cc-a398-a8f8dd036ead",
+      {
+        "id": "14f970f1-fba9-43cc-a398-a8f8dd036ead",
+        "confessionId": "f0b25500-44f5-499a-a216-df687770b721",
+        "reporterId": "user-c",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:15:43.393Z"
+      }
+    ],
+    [
+      "caf7a2f7-07ad-498f-acfe-8e5cb9a7c0dd",
+      {
+        "id": "caf7a2f7-07ad-498f-acfe-8e5cb9a7c0dd",
+        "confessionId": "19ef4762-8e7d-47c7-bbf0-c4413c9f0e35",
+        "reporterId": "user-a",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:13.233Z"
+      }
+    ],
+    [
+      "51cdbb16-289e-4c08-9acd-766d78589350",
+      {
+        "id": "51cdbb16-289e-4c08-9acd-766d78589350",
+        "confessionId": "19ef4762-8e7d-47c7-bbf0-c4413c9f0e35",
+        "reporterId": "user-b",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:13.234Z"
+      }
+    ],
+    [
+      "2e786c4c-c036-4e08-8894-982abdf3d638",
+      {
+        "id": "2e786c4c-c036-4e08-8894-982abdf3d638",
+        "confessionId": "19ef4762-8e7d-47c7-bbf0-c4413c9f0e35",
+        "reporterId": "user-c",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:13.236Z"
+      }
+    ],
+    [
+      "fe480d4b-6d84-4149-9d01-c27f75824ecb",
+      {
+        "id": "fe480d4b-6d84-4149-9d01-c27f75824ecb",
+        "confessionId": "45058b82-dd5b-482b-ae68-5a24ed5d8ba2",
+        "reporterId": "user-a",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:39.930Z"
+      }
+    ],
+    [
+      "1a22e843-ad91-4eb6-b6d8-e60e2b28c4aa",
+      {
+        "id": "1a22e843-ad91-4eb6-b6d8-e60e2b28c4aa",
+        "confessionId": "45058b82-dd5b-482b-ae68-5a24ed5d8ba2",
+        "reporterId": "user-b",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:39.931Z"
+      }
+    ],
+    [
+      "e99144ce-51ac-4959-a9a5-42409e88e50d",
+      {
+        "id": "e99144ce-51ac-4959-a9a5-42409e88e50d",
+        "confessionId": "45058b82-dd5b-482b-ae68-5a24ed5d8ba2",
+        "reporterId": "user-c",
+        "reason": "HARASSMENT",
+        "details": null,
+        "createdAt": "2026-10-22T17:36:39.932Z"
+      }
+    ]
+  ],
+  "friendRequests": [
+    [
+      "90000000-0000-0000-0000-000000000001",
+      {
+        "id": "90000000-0000-0000-0000-000000000001",
+        "senderId": "20000000-0000-0000-0000-000000000003",
+        "receiverId": "20000000-0000-0000-0000-000000000001",
+        "status": "PENDING",
+        "createdAt": "2026-10-22T13:52:34.062Z",
+        "updatedAt": "2026-10-22T13:52:34.062Z"
+      }
+    ],
+    [
+      "462c7bf0-c1d5-4af9-b6a1-2216e81a25ca",
+      {
+        "id": "462c7bf0-c1d5-4af9-b6a1-2216e81a25ca",
+        "senderId": "20000000-0000-0000-0000-000000000004",
+        "receiverId": "20000000-0000-0000-0000-000000000003",
+        "status": "ACCEPTED",
+        "createdAt": "2026-10-22T17:52:34.087Z",
+        "updatedAt": "2026-10-22T17:52:34.095Z"
+      }
+    ],
+    [
+      "03a29851-8859-4cc8-9bd9-33d47c49af7d",
+      {
+        "id": "03a29851-8859-4cc8-9bd9-33d47c49af7d",
+        "senderId": "20000000-0000-0000-0000-000000000002",
+        "receiverId": "20000000-0000-0000-0000-000000000004",
+        "status": "ACCEPTED",
+        "createdAt": "2026-10-22T17:52:34.097Z",
+        "updatedAt": "2026-10-22T17:52:34.098Z"
+      }
+    ],
+    [
+      "ccd726e3-1334-408e-ab70-4e36a1a064bb",
+      {
+        "id": "ccd726e3-1334-408e-ab70-4e36a1a064bb",
+        "senderId": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "receiverId": "20000000-0000-0000-0000-000000000001",
+        "status": "PENDING",
+        "createdAt": "2026-10-22T18:02:11.353Z",
+        "updatedAt": "2026-10-22T18:02:11.353Z"
+      }
+    ],
+    [
+      "22b506da-6b3f-40c3-a005-2c2ea47d3177",
+      {
+        "id": "22b506da-6b3f-40c3-a005-2c2ea47d3177",
+        "senderId": "b32ff88c-af6b-4748-8aa7-d8b6ae730e66",
+        "receiverId": "20000000-0000-0000-0000-000000000003",
+        "status": "PENDING",
+        "createdAt": "2026-10-22T18:06:44.058Z",
+        "updatedAt": "2026-10-22T18:06:46.671Z"
+      }
+    ]
+  ],
+  "connections": [
+    [
+      "80000000-0000-0000-0000-000000000001",
+      {
+        "id": "80000000-0000-0000-0000-000000000001",
+        "userA": "20000000-0000-0000-0000-000000000001",
+        "userB": "20000000-0000-0000-0000-000000000002",
+        "createdAt": "2026-10-21T17:52:34.062Z"
+      }
+    ],
+    [
+      "edde9826-c58a-490e-aca5-dbf67b217927",
+      {
+        "id": "edde9826-c58a-490e-aca5-dbf67b217927",
+        "userA": "20000000-0000-0000-0000-000000000002",
+        "userB": "20000000-0000-0000-0000-000000000004",
+        "createdAt": "2026-10-22T17:52:34.098Z"
+      }
+    ]
+  ],
+  "communities": [
+    [
+      "50000000-0000-0000-0000-000000000001",
+      {
+        "id": "50000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Coding & AI Lab",
+        "slug": "coding-ai",
+        "description": "From LeetCode grinding to training local LLMs, hackathons, and late-night debugging sprints 💻⚡",
+        "icon": "💻",
+        "category": "Tech",
+        "memberCount": 42,
+        "postCount": 3,
+        "createdAt": "2026-10-20T17:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000002",
+      {
+        "id": "50000000-0000-0000-0000-000000000002",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Indie Beats & Vinyl",
+        "slug": "indie-music",
+        "description": "Lo-fi study tracks, campus band jams, concert carpools, and synth obsessions 🎧✨",
+        "icon": "🎧",
+        "category": "Music",
+        "memberCount": 35,
+        "postCount": 1,
+        "createdAt": "2026-10-21T01:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000003",
+      {
+        "id": "50000000-0000-0000-0000-000000000003",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Midnight LAN & Gaming",
+        "slug": "campus-gaming",
+        "description": "Valorant, Smash, board game nights, and late-night campus dorm tournaments 🎮🔥",
+        "icon": "🎮",
+        "category": "Gaming",
+        "memberCount": 29,
+        "postCount": 1,
+        "createdAt": "2026-10-21T05:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000004",
+      {
+        "id": "50000000-0000-0000-0000-000000000004",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Campus Fitness & Calisthenics",
+        "slug": "fitness-calisthenics",
+        "description": "Gym buddies, running clubs, PR celebrations, and dorm meal prep advice 🏋️💪",
+        "icon": "🏋️",
+        "category": "Fitness",
+        "memberCount": 38,
+        "postCount": 1,
+        "createdAt": "2026-10-21T11:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000005",
+      {
+        "id": "50000000-0000-0000-0000-000000000005",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Founder Lab & Startups",
+        "slug": "founder-lab",
+        "description": "Pitch decks, side projects, finding co-founders, and turning dorm room ideas into reality 🚀💡",
+        "icon": "🚀",
+        "category": "Entrepreneurship",
+        "memberCount": 27,
+        "postCount": 1,
+        "createdAt": "2026-10-21T16:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000006",
+      {
+        "id": "50000000-0000-0000-0000-000000000006",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Quiet Corner & Study Sprints",
+        "slug": "study-sprints",
+        "description": "Pomodoro sessions, library 4th floor meetups, and exam survival kits 📚☕",
+        "icon": "📚",
+        "category": "Academics",
+        "memberCount": 46,
+        "postCount": 1,
+        "createdAt": "2026-10-21T21:52:34.062Z"
+      }
+    ],
+    [
+      "50000000-0000-0000-0000-000000000007",
+      {
+        "id": "50000000-0000-0000-0000-000000000007",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "name": "Campus Life & Chai Spills",
+        "slug": "campus-chai",
+        "description": "Canteen recommendations, fest updates, roommate tips, and weekend hangouts ☕✨",
+        "icon": "☕",
+        "category": "Social",
+        "memberCount": 61,
+        "postCount": 1,
+        "createdAt": "2026-10-22T02:52:34.062Z"
+      }
+    ]
+  ],
+  "communityMemberships": [
+    "50000000-0000-0000-0000-000000000001:20000000-0000-0000-0000-000000000001",
+    "50000000-0000-0000-0000-000000000006:b32ff88c-af6b-4748-8aa7-d8b6ae730e66"
+  ],
+  "communityPosts": [
+    [
+      "60000000-0000-0000-0000-000000000001",
+      {
+        "id": "60000000-0000-0000-0000-000000000001",
+        "communityId": "50000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "title": "Anyone down for the upcoming 36hr Campus Hackathon?",
+        "content": "We need 1 frontend dev who knows React / Tailwind and 1 ML enthusiast for a student assistant agent project. Free pizza and caffeine included!",
+        "likesCount": 14,
+        "repliesCount": 3,
+        "isPinned": true,
+        "createdAt": "2026-10-22T05:52:34.062Z"
+      }
+    ],
+    [
+      "60000000-0000-0000-0000-000000000002",
+      {
+        "id": "60000000-0000-0000-0000-000000000002",
+        "communityId": "50000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000004",
+        "title": "Running Llama-3 locally on MacBook M-series — benchmark results",
+        "content": "Sharing quantized 4-bit config benchmarks if anyone is doing thesis work without GPU cluster credits. Hit me up for the script!",
+        "likesCount": 22,
+        "repliesCount": 1,
+        "isPinned": false,
+        "createdAt": "2026-10-22T12:52:34.062Z"
+      }
+    ],
+    [
+      "60000000-0000-0000-0000-000000000007",
+      {
+        "id": "60000000-0000-0000-0000-000000000007",
+        "communityId": "50000000-0000-0000-0000-000000000007",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000002",
+        "title": "Best masala chai spot near North Dorms?",
+        "content": "The canteen machine has been broken for 2 days. Who knows the secret stall behind the engineering auditorium?",
+        "likesCount": 31,
+        "repliesCount": 1,
+        "isPinned": false,
+        "createdAt": "2026-10-22T09:52:34.062Z"
+      }
+    ],
+    [
+      "0ea62ff7-138e-453f-97c0-20d9e6c3af66",
+      {
+        "id": "0ea62ff7-138e-453f-97c0-20d9e6c3af66",
+        "communityId": "50000000-0000-0000-0000-000000000001",
+        "campusId": "11111111-1111-1111-1111-111111111111",
+        "authorId": "20000000-0000-0000-0000-000000000001",
+        "title": "Weekly LeetCode discussion thread",
+        "content": "Let us solve 3 graph problems this Thursday evening in the CS lounge!",
+        "likesCount": 0,
+        "repliesCount": 0,
+        "isPinned": false,
+        "createdAt": "2026-10-22T17:52:34.103Z"
+      }
+    ]
+  ],
+  "communityPostLikes": [],
+  "communityPostReplies": [
+    [
+      "60000000-0000-0000-0000-000000000001",
+      [
+        {
+          "id": "70000000-0000-0000-0000-000000000001",
+          "postId": "60000000-0000-0000-0000-000000000001",
+          "authorId": "20000000-0000-0000-0000-000000000002",
+          "content": "I can do UI/UX and Tailwind! Sent you a connection request 🚀",
+          "createdAt": "2026-10-22T07:52:34.062Z"
+        },
+        {
+          "id": "70000000-0000-0000-0000-000000000002",
+          "postId": "60000000-0000-0000-0000-000000000001",
+          "authorId": "20000000-0000-0000-0000-000000000004",
+          "content": "Count me in for ML/backend pipeline integration.",
+          "createdAt": "2026-10-22T08:52:34.062Z"
+        },
+        {
+          "id": "acd871be-b1a0-4c00-96bc-d8855d774f62",
+          "postId": "60000000-0000-0000-0000-000000000001",
+          "authorId": "20000000-0000-0000-0000-000000000002",
+          "content": "I will bring snacks! See you at 7pm.",
+          "createdAt": "2026-10-22T17:52:34.107Z"
+        }
+      ]
+    ],
+    [
+      "60000000-0000-0000-0000-000000000007",
+      [
+        {
+          "id": "70000000-0000-0000-0000-000000000003",
+          "postId": "60000000-0000-0000-0000-000000000007",
+          "authorId": "20000000-0000-0000-0000-000000000003",
+          "content": "Raju Tapri behind Gate 3! Ask for ginger cardamom special ☕👌",
+          "createdAt": "2026-10-22T11:52:34.062Z"
+        }
+      ]
+    ]
+  ]
+}
