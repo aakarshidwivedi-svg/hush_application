@@ -145,9 +145,8 @@ Client (`client/.env`): `VITE_API_URL`, `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON
 
 ```bash
 npm run typecheck                        # both workspaces
-npm run test:unit                        # fast unit tests (storage, image magic bytes, limits, schemas)
-TEST_ADMIN_DATABASE_URL=postgresql://postgres@127.0.0.1:5432/postgres npm test          # API & database integration tests
-E2E_ADMIN_DATABASE_URL=postgresql://postgres@127.0.0.1:5432/postgres npm run test:e2e   # browser tests
+TEST_ADMIN_DATABASE_URL=postgresql://postgres@127.0.0.1:5432/postgres npm test          # 231 API tests
+E2E_ADMIN_DATABASE_URL=postgresql://postgres@127.0.0.1:5432/postgres npm run test:e2e   # 35 browser tests
 ```
 Both suites create a throwaway database (`hush_test` / `hush_e2e`) on the PostgreSQL server you point them at —
 use a superuser connection to a **disposable** server, never production. The first time, run
@@ -180,41 +179,43 @@ Terminate TLS at the platform; the API sends HSTS and other secure headers via `
 Pre-launch: replace `CONTACT_EMAIL` in `client/src/pages/Legal.tsx`, and **have counsel review the Terms,
 Privacy Policy and Guidelines** — they are drafts that describe what this code actually does.
 
-## Completed Features & Architecture Upgrades
 
-### 1. Admin Moderation Dashboard (`/moderation`)
-- Responsive moderation UI accessible to authorized moderators.
-- Filter user reports by status (`OPEN`, `REVIEWING`, `ACTIONED`, `DISMISSED`), category (`HARASSMENT`, `SPAM`, `FAKE_PROFILE`, `INAPPROPRIATE_CONTENT`, `UNDERAGE`, `OTHER`), and date order.
-- Action reports with auditable resolution notes (`PATCH /moderation/reports/:id`).
-- Account-level safety actions with confirmation dialogs: suspend account, reinstate account, and verify age.
-- Strictly enforced server-side security boundary via `requireModerator` (checks authenticated subject against `MODERATOR_AUTH_SUBJECTS`).
+### Google sign-in and non-campus accounts
 
-### 2. Real-Time Messaging (`socket.io` + `socket.io-client`)
-- Full real-time messaging replacing 4-second polling.
-- Handshake token authentication verified using Supabase JWT verifiers.
-- Conversation authorization enforced on room join (`match:${matchId}`) and on every message dispatch.
-- Real-time typing indicators (`typing` event with partner indicator animation).
-- Dual delivery support: fast Socket.IO message send with automatic REST endpoint fallback (`POST /matches/:id/messages`), guaranteeing delivery even over restricted networks.
-- Graceful in-memory handling with documented single-node vs clustered adapter considerations (Socket.IO Redis adapter recommended for multi-instance scaling).
+The login and signup pages offer **Continue with Google** (Supabase OAuth) next to email + password. Any account with a
+*verified* email can sign in and build a profile. Campus status is derived on the server: an email on the chosen campus's
+domain is `VERIFIED` immediately; anything else (e.g. a personal Gmail) is `UNVERIFIED`, so the account is hidden from
+Discover and cannot send crushes until a moderator calls `POST /moderation/users/:id/verify-campus`. Tokens without a
+verified email are always refused.
 
-### 3. Smarter Interest-Based Profile Recommendations
-- Transparent recommendation engine ranking eligible campus profiles by shared interests (`shared_count DESC`).
-- Clear match explanations (e.g. `"✨ You both enjoy Pop & Coffee"` or `"🎓 Fellow student at Stanford"`).
-- Deterministic pseudo-random tie-breaking per viewer (`md5(viewerId:candidateId)`).
-- **Core Secret Crush Privacy Preserved**: Recommendation scoring logic strictly avoids factoring in whether a candidate has liked the viewer, ensuring one-sided crushes are never leaked.
-- GIN indexed `interests` on `profiles` (migration `0006_notifications_and_recommendations.sql`).
+Enable it in Supabase: Authentication -> Providers -> Google (paste a Google Cloud OAuth client ID/secret; set the
+Google redirect URI shown there), and add `http://localhost:5173/**` plus your production URL under
+Authentication -> URL Configuration -> Redirect URLs.
 
-### 4. Reliable In-App Notifications
-- In-app notification bell with live unread badge counter in the navigation header.
-- Dropdown inbox supporting both mutual matches (`MATCH`) and incoming messages (`MESSAGE`).
-- Mark single notification as read or bulk mark all as read (`POST /notifications/read`).
-- Real-time Socket.IO notification push directly to `user:${userId}` room.
+## Photos, interests and onboarding
 
----
+- **Photos (1–6 per profile).** The browser compresses to WebP/JPEG (max 1280×1600). The server re-validates
+  (magic bytes, 300–12000 px, 6 MB cap), re-encodes to WebP (full + 480×600 thumb) and stores the files privately.
+  Exactly one photo is primary (DB-enforced); order is 0–5. Deleted photos and account deletion queue file removal in `storage_cleanup`.
+- **Storage drivers.** `supabase`: private `profile-photos` bucket, server-only `SUPABASE_SERVICE_ROLE_KEY` (never in the client).
+  `local` (dev/tests): HMAC-signed short-lived URLs from `/api/v1/media/*`; set `MEDIA_SIGNING_SECRET` and `PUBLIC_API_URL`.
+  Only the local driver is exercised by the automated tests; Supabase Storage is untested here.
+- **Interests.** Catalog of 40 interests in 6 categories (`GET /api/v1/interests`); users pick 3–10 (`PUT /api/v1/profiles/me/interests`).
+- **Profile completeness.** At least 1 photo and 3 interests are required before Discover or crushes (`PROFILE_INCOMPLETE`).
+- **Onboarding.** 5 steps: Campus, About you, Photos, Interests, Preview. Reloading resumes at the right step.
+- **Endpoints.** `GET/POST /profiles/me/photos`, `PATCH /profiles/me/photos/reorder`, `PATCH /profiles/me/photos/:photoId/primary`,
+  `DELETE /profiles/me/photos/:photoId`. Media requests use their own rate limiter (6× the global limit), separate from the global one.
+- **Migration.** Apply `server/migrations/0005_photos_interests.sql` (additive on top of 0001–0004).
 
-## Known limitations & considerations
+## Known limitations
 
-- **Single-instance Socket.IO**: The current real-time implementation runs in-memory. For horizontal scaling across multiple load-balanced server instances, attach `@socket.io/redis-adapter`.
-- **Browser Push Notifications**: In-app notifications and real-time badges are fully operational; Web Push / APNS push notifications can be integrated as a future background service.
-- **Age verification is self-attestation plus an optional manual moderator step**: Automated government ID checking (e.g. Persona/Stripe Identity) is not yet integrated.
-- **Phase 8 (anonymous confession wall) is intentionally deferred** until campus moderation tooling is battle-tested.
+- **Polling, not realtime.** Chat polls every 4 s and match notifications every 15 s. Realtime is a later add-on.
+- **No push/email notifications.** Match alerts are in-app only.
+- **Age verification is self-attestation plus an optional manual moderator step.** There is no automated ID check.
+- **Avatars are URLs** (https only, optional host allow-list), not uploads; no image moderation.
+- **No moderation UI.** Moderators use the `/moderation/*` API (see `docs/API.md`).
+- **Not end-to-end encrypted;** crush rows are readable by anyone with database access (disclosed in the Privacy Policy).
+- **In-memory rate limiting** (per instance).
+- **Phase 8 (anonymous confession wall) is intentionally not built** — it needs moderation tooling first.
+- The Supabase sign-up/login screens could not be exercised against a real Supabase project in the build
+  environment; everything behind authentication was tested with API-signed test tokens.
